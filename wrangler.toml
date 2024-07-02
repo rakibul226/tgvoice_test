@@ -1,0 +1,7 @@
+name = "my-worker-project"
+type = "javascript"
+account_id = "0536cddfeb44d1cf237357d0ec2be5c7"
+workers_dev = true
+main = "dist/index.js"  # Adjust if your entry point is different
+node_compat = true
+compatibility_date = "2024-07-02"
