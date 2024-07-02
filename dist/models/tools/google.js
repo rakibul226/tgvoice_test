@@ -53,8 +53,8 @@ exports.googleTool = new tools_1.DynamicTool({
                     _a.trys.push([0, 2, , 3]);
                     return [4 /*yield*/, googlethis_1.default.search(searchPhrase, {
                             page: 0,
-                            safe: false, // Safe Search
-                            parse_ads: false, // If set to true sponsored results will be parsed
+                            safe: false,
+                            parse_ads: false,
                             additional_params: {
                             // add additional parameters here, see https://moz.com/blog/the-ultimate-guide-to-the-google-search-parameters and https://www.seoquake.com/blog/google-search-param/
                             },
